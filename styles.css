@@ -1,0 +1,44 @@
+#web-body {
+    background-color: rgb(251, 233, 200);
+  }
+
+  .img-container{
+    height:auto;
+    width:auto;
+    max-height:100px;
+    max-width:100px;
+    margin: 0px;
+  }
+
+  .Part-1-Section {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;  /* you need this to align images, can be flex or block*/
+    justify-content: center; /*x axis*/
+    flex-direction: row; /*alignment in row or center */
+    align-items: center; /*y axis*/
+    flex-wrap: wrap; /* changes with sizing the screeb */
+    font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 10px;
+  }
+
+  .sketch-img{
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    margin-left: 0px;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .Part-2-Section {
+    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    display: flex;  /* you need this to align images, can be flex or block*/
+    justify-content: center; /*x axis*/
+    flex-direction: row; /*alignment in row or center */
+    align-items: center; /*y axis*/
+    flex-wrap: wrap; /* changes with sizing the screeb */
+    font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 10px;
+  }
