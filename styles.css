@@ -1,44 +1,149 @@
 #web-body {
-    background-color: rgb(251, 233, 200);
+    background-color: rgba(251, 233, 200, 0.393);
   }
 
-  .img-container{
-    height:auto;
-    width:auto;
-    max-height:100px;
-    max-width:100px;
-    margin: 0px;
+
+  .header{
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("assets/background.jpg") 12 round;
+  
   }
 
   .Part-1-Section {
     /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+    flex-wrap: wrap; /* changes with sizing the screeb */
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(254, 252, 252);
+
+    text-align: start;
+    border: 5px solid black;
+    padding: 25px;
+  }
+
+  .gallery-item{
+    height:auto;
+    width:auto;
+    max-height:250px;
+    flex-wrap: wrap; 
+    margin-bottom: 12px;
+  }
+
+
+  .img{
+    height:auto;
+    width:auto;
+    max-height:350px;
+    margin-bottom: 12px;
+  }
+  .sketch-container{
     display: flex;  /* you need this to align images, can be flex or block*/
     justify-content: center; /*x axis*/
     flex-direction: row; /*alignment in row or center */
     align-items: center; /*y axis*/
-    flex-wrap: wrap; /* changes with sizing the screeb */
-    font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  margin: 10px;
+    margin-bottom: 8px;
   }
 
-  .sketch-img{
-    /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
-    margin-left: 0px;
-    overflow: hidden;
+
+  .img-cap{
+    float: none;
     text-align: left;
+    font-style: italic;
+   
+    font-size: 14px;
+    text-indent: 0;
+    border: thin silver solid;
+    background-color:rgba(144, 134, 134, 0.577);
+    margin: 8px;
+    padding: 0.5em;
   }
+
+ 
+
 
   .Part-2-Section {
     /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
-    display: flex;  /* you need this to align images, can be flex or block*/
-    justify-content: center; /*x axis*/
-    flex-direction: row; /*alignment in row or center */
-    align-items: center; /*y axis*/
+
     flex-wrap: wrap; /* changes with sizing the screeb */
-    font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-  margin: 10px;
+    margin-top: 305px;
+    font-size: 14px; 
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(254, 252, 252);
+    border: 5px solid black;
+    padding: 25px;
+  }
+
+  .Part-3-Section{
+    flex-wrap: wrap; /* changes with sizing the screeb */
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(254, 252, 252);
+    flex-direction: row;
+    border: 5px solid black;
+    padding: 25px;
+    display: block;  /* you need this to align images, can be flex or block*/
+    justify-content: center; /*x axis*/
+    align-items: center; /*y axis*/
+    align-self: center;
+    align-content: center;
+    flex-wrap: wrap; /* changes with sizing the screeb */
+    border: 5px solid #555;
+
+
+  }
+
+
+
+
+  .Part-4-Section{
+    flex-wrap: wrap; /* changes with sizing the screeb */
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(254, 252, 252);
+    border: 5px solid black;
+    padding: 25px;
+    margin-bottom: 16px;
+  }
+
+  .Part-4-Container{
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+
+  .img-smol{
+    height: auto;
+    width: auto; 
+    max-width: 250px;
+    max-height: 250px;
+    margin: 70px;
+  }
+
+  .img-large{
+    height: auto;
+    width: auto; 
+    max-width: 750px;
+    max-height: 750px;
+    min-width: 20%;
+    min-height: 20%;
+
+  }
+
+
+
+  figcaption {
+    background-color: #ccc;
+    padding: 2px;
+    font-style: italic;
+    font-size: 14px;
+    max-width: 180px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, monospace;
+    padding: 2px;
   }
